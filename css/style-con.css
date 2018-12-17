@@ -116,8 +116,11 @@
 		text-decoration: black;
 	}
 	.con_header>nav>p:hover{
-		margin-left:60%
-		
+		margin-left:60%;
+		text-decoration: black;
+		text-decoration-line: underline;
+		text-decoration-color: yellow;
+
 	}
 	.con_ul{
 		margin-left:50%;
