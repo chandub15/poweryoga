@@ -114,15 +114,16 @@
 			
 		}
 		.contact_article{
-			display: flex;   
-			background-color: brown;
-			flex-direction: column;
+			display: flex;  
+			flex-direction: column; 
+		
 		}
 			
 		.maps>iframe{
-			width:100%;
+			width:200%;
 			height:70%;
 			border:1;
+			align-items: 
 		}
 		.contact_article p{
 			line-height: 1.5em;
