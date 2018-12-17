@@ -2,32 +2,37 @@
 	*{
 		box-sizing:border-box;
 	}
+	
 	.con_body{
 		background-color:lightgray;
 		margin-bottom: 5%;
+		z-index:1;
+		margin-top:5%;
 	}
 	.con_main{
 		font-family: 'Dosis', sans-serif;
 		text-align:center;
 		
 	}
+	.con_main>p>a{
+		text-decoration: none;
+		color:grey;
+	}
+	.con_main>p>a:hover{
+		text-decoration: none;
+		color:black;
+	}
+
 	.con_main h1{
 		font-size:40px;
 	}
 	#logo{
 		display: flex;
-		width:5%;
+		width:25%;
 		height:5%;
 		margin-left:5%;
 	}
-	a{
-		text-decoration: none;
-		color:grey;
-	}
-	a:hover{
-		color:black;
-	}
-
+	
 	h2{
 		font-weight: 100;
 		font-size:35px;
@@ -39,7 +44,6 @@
 		margin-right: 20%;
 		font-size:28px;
 	}
-
 
 	.contact_article{
 		display: flex;;    
@@ -62,7 +66,7 @@
 		background-color: yellow;
 				
 	}
-	section h1,h3,p{
+	section h1,h5,p{
 		margin-left:5%;
 		position:relative;
 	}
@@ -87,9 +91,31 @@
 		height: 10%;
 		margin-left:6%;
 	}
-
+	.con_foot>.con_fos>.con_ul>a:hover{
+		color:black;
+		text-decoration: none;
+	}
 	
 	@media only screen and (min-width: 501px){
+
+	.con_header{
+		z-index:0;
+		color:black;
+		margin-right:5px;
+		margin-left:5px;
+			
+	}
+	header>nav>div>ul>li>a:hover{
+		background-color: yellow;
+	}
+	.con_header>nav>p{
+		margin-left:60%;
+		text-decoration: black;
+	}
+	.con_header>nav>p:hover{
+		margin-left:60%
+		
+	}
 	.con_ul{
 		margin-left:50%;
 		position: absolute;
@@ -99,8 +125,15 @@
 		display: inline;
 		padding-left:0;
 		padding-right: 1%;
+		color: grey;
 		
 	}
+	.con_foot>.con_fos>.con_ul>a>li:hover{
+		color:black;
+		text-decoration: none;
+	}
+	
+
 	}
 	
 	@media only screen and (max-width: 500px) {
@@ -111,6 +144,7 @@
 			margin-left:7%;
 			margin-right:7%;
 			font-size:16px;
+
 			
 		}
 		.contact_article{
@@ -158,8 +192,15 @@
 			margin-left:0;
 			text-decoration: none;
 			display: block;
-			
+			color:grey;
+		
 		}
+		.con_foot>.con_fos>.con_ul>a>li:hover{
+			text-decoration: none;
+			background-color: black;
+			color: black;
+		}
+
 	}		
 
 
